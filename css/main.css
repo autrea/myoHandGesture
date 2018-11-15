@@ -1,0 +1,61 @@
+@font-face {
+    font-family: juizDeFora;
+    src: url(../assets/font/Juiz_de_Fora.otf);
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: black;
+    font-family: juizDeFora;
+    color: white;
+    font-weight: 100;
+}
+
+.text {
+    font-size: 38px;
+    fill: #fff;
+    font-family: juizDeFora, Juiz de Fora;
+}
+
+#textSVG {
+    width: 40%;
+    margin: 0 30%;
+}
+
+.noFill {
+    fill: none;
+}
+
+h1 {
+    font-size: 4vw;
+    text-align: center;
+}
+
+.hand {
+    fill:none;
+    stroke:#fff;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+}
+
+.noStroke {
+    stroke: none;
+}
+
+#handSVG {
+    width: 30%;
+    margin: 1vh 35% 0;
+}
+
+.cls-1 {
+    fill: #7dff9f;
+}
+
+#background {
+    position: fixed;
+    z-index: -999;
+}
